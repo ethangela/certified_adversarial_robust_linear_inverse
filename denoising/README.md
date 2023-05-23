@@ -10,7 +10,7 @@ The model used is adapted from [DPDNN](https://github.com/WeishengDong/DPDNN/tre
 ### Train, Test, and Analysis
 1. Run script in Shell and the trained parameters will be saved to the ```./checkpoint``` directory (only pre-trained Ord model is provided).
      - ```sh train_script.sh```  
-2. Run script in Shell and the resulted excel file will be saved to the current ```./``` directory (can repalce test_bsd68.py with test_vk.py for test data switching). 
+2. Run script in Shell and the resulted excel file will be saved to the current ```./``` directory (can repalce ```test_bsd68.py``` with ```test_div2k.py``` for test data switching). 
      - ```sh test_script.sh```  
 3. Run ploting programme and the trend-pattern plots will be saved to the ```./plt_bsd68``` and the ```./plt_vk``` directories.
      - ```python graphing.py```  
