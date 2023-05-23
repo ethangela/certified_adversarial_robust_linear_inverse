@@ -13,7 +13,7 @@
      - ```sh train_script.sh```  
 2. Run script in Shell and the resulted excel file will be saved to main directory:
      - ```sh test_script.sh```  
-3. Trend plots will be saved to plt_ig and plt_set directories: 
+3. Trends plots will be saved to plt_ig and plt_set directories: 
      - ```python graphing.py```  
     
 ---
