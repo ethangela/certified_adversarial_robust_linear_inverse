@@ -1,6 +1,4 @@
 # experiments for compressed sensing
- 
-This repository provides code to reproduce results of the paper: Certified Adversarial Defense Methods for Inverse Problems.
 
 ---
 ### Data
