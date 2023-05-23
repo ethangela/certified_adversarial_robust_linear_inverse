@@ -22,17 +22,17 @@ import matplotlib.pyplot as plt
 #args
 parser = ArgumentParser(description='dpdnn denoiser')
 
-parser.add_argument('--load_model_path', type=str, default='./org_checkpoints/DPDNN_denoise_sigma15.pth', help='load_model_path')
+parser.add_argument('--load_model_path', type=str, default='./checkpoints/DPDNN_denoise_sigma15.pth', help='load_model_path')
 parser.add_argument('--noi', type=int, default=15, help='noise_level')
 
-parser.add_argument('--atk', type=int, default=1, help='attack indicator')
-parser.add_argument('--alp', type=float, default=40000., help='attack step size')
-parser.add_argument('--eps', type=float, default=3., help='attack norm')
-parser.add_argument('--itr', type=int, default=6, help='attack iterations')
+parser.add_argument('--atk', type=int, default=0, help='attack indicator')
+parser.add_argument('--alp', type=float, default=0., help='attack step size')
+parser.add_argument('--eps', type=float, default=0., help='attack norm')
+parser.add_argument('--itr', type=int, default=0, help='attack iterations')
 
-parser.add_argument('--smt', type=int, default=1, help='smoothing indicator')
-parser.add_argument('--smp', type=int, default=100, help='smoothing samples')
-parser.add_argument('--std', type=float, default=3., help='smoothing std')
+parser.add_argument('--smt', type=int, default=0, help='smoothing indicator')
+parser.add_argument('--smp', type=int, default=0, help='smoothing samples')
+parser.add_argument('--std', type=float, default=0., help='smoothing std')
 
 parser.add_argument('--vis', type=int, default=0, help='visualize indicator')
 parser.add_argument('--pkl', type=str, default='test_ord', help='pickle file')
@@ -129,7 +129,7 @@ for img_idx in range(num_data):
                 
     #data
     img_idx_ = '00' + str(img_idx+1) if img_idx < 9 else '0' + str(img_idx+1)
-    img = Image.open(f'./BSD68/test{img_idx_}.png')
+    img = Image.open(f'./data/BSD68/test{img_idx_}.png')
     img = img_crop(img, cropsize)
     if visual:
         model_dir = f'./BSD68_output/{img_idx+1}'
