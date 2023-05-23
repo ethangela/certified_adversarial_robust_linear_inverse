@@ -25,7 +25,7 @@
      - ```-- smp``` 
      - ```-- std``` 
      - ```-- stp``` 
-2. Run script in Shell and the resulted excel file will be saved to main directory:
+2. For testing usage:
      - ```-- tatk``` 
      - ```-- titr``` 
      - ```-- talp``` 
