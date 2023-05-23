@@ -17,13 +17,15 @@
      - ```python graphing.py```  
     
 ---
-### Parameters info
+### Parameters info (with details in ```train.py```)
 1. For training usage:
      - ```-- jcb```  
      - ```-- gma``` 
+     - ```-- atk```  
      - ```-- itr``` 
      - ```-- alp``` 
-     - ```-- eps``` 
+     - ```-- eps```
+     - ```-- smt```   
      - ```-- smp``` 
      - ```-- std``` 
      - ```-- stp``` 
