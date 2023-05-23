@@ -18,7 +18,7 @@ The model used is adapted from [ISTA-Net<sup>+</sup><sup>+</sup>](https://github
      - ```python graphing.py```  
     
 ---
-### Parameters info (with details in ```train.py```)
+### Parameters info (with details in ```train.py``` and ```test.py```)
 1. For training usage:
      - ```-- jcb```  
      - ```-- gma``` 
