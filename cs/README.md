@@ -1,25 +1,21 @@
-# robust_inverse_problems
+# experiments for compressed sensing
  
 This repository provides code to reproduce results of the paper: Certified Adversarial Defense Methods for Inverse Problems.
 
 ---
-### Requirements
-1. Python 3.7
-2. PyTorch 
+### Data
+1. Set11 (already contained in data/Set11)
+2. ImageNet 300 grayscale-converted samples (can be downloaded from)
 
 ---
-### Reproducing quantitative results
-1. Main experiment scripts:
-     - ```python main.py```  
-2. Sensitivity to graph mismatch:
-     - ```python varying_graph_test.py```  
-3. Sensitivity to parameter mismatch:  
-     - ```python varying_lambda_test.py```  
-* Facebook network loader:  
-     - ```python facebook_network_loader.py```  
-* Gibbs sampling:  
-     - ```python gibbs_sampling.py```  
-     
+### Train, Test, and Analysis
+1. Run script in Shell and the trained parameters will be saved to model directory:
+     - ```sh train_script.sh```  
+2. Run script in Shell and the resulted excel file will be saved to main directory:
+     - ```sh test_script.sh```  
+3. Trend plots will be saved to plt_ig and plt_set directories: 
+     - ```python graphing.py```  
+    
 ---
-### Additional info
-We provide two graph examples (grid and block) produced by Gibbs sampling. Feel free to create your own graph samples in replace of them. 
+### Parameters info
+
