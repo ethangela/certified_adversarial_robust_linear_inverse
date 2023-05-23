@@ -37,7 +37,7 @@ parser.add_argument('--n_channels', type=int, default=1, help='1 for gray, 3 for
 parser.add_argument('--patch_size', type=int, default=33, help='from {1, 4, 10, 25, 40, 50}')
 
 parser.add_argument('--matrix_dir', type=str, default='sampling_matrix', help='sampling matrix directory')
-parser.add_argument('--model_dir', type=str, default='model_new', help='trained or pre-trained model directory') #TODO !!!!
+parser.add_argument('--model_dir', type=str, default='model', help='trained or pre-trained model directory') #TODO !!!!
 parser.add_argument('--data_dir_org', type=str, default='data', help='training data directory')
 parser.add_argument('--log_dir', type=str, default='log', help='log directory')
 parser.add_argument('--ext', type=str, default='.png', help='training data directory')
