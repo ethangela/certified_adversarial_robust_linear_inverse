@@ -3,8 +3,7 @@ The model used is adapted from [DPDNN](https://github.com/WeishengDong/DPDNN/tre
 
 ---
 ### Data
-1. DIV2K (can be downloaded from []())
-1. DIV2K validation set (can be downloaded from []())
+1. DIV2K train and validation set (can be downloaded from [DIV2K dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and placed into data directory)
 3. BSD68 (can be downloaded from []() and placed into data directory)
 
 ---
