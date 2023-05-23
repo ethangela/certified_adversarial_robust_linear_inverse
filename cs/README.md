@@ -16,4 +16,11 @@
     
 ---
 ### Parameters info
+1. For training usage:
+     - ```-- gpu```  
+2. Run script in Shell and the resulted excel file will be saved to main directory:
+     - ```sh test_script.sh```  
+3. For visualization usage: 
+     - ```--vis 1```  
+
 
