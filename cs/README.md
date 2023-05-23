@@ -17,10 +17,24 @@
 ---
 ### Parameters info
 1. For training usage:
-     - ```-- gpu```  
+     - ```-- jcb```  
+     - ```-- gma``` 
+     - ```-- itr``` 
+     - ```-- alp``` 
+     - ```-- eps``` 
+     - ```-- smp``` 
+     - ```-- std``` 
+     - ```-- stp``` 
 2. Run script in Shell and the resulted excel file will be saved to main directory:
-     - ```sh test_script.sh```  
+     - ```-- tatk``` 
+     - ```-- titr``` 
+     - ```-- talp``` 
+     - ```-- teps``` 
+     - ```-- tsmt```
+     - ```-- tsmp```
+     - ```-- tstd```
+     - ```-- cs_ratio```    
 3. For visualization usage: 
-     - ```--vis 1```  
+     - ```--vis```  
 
 
