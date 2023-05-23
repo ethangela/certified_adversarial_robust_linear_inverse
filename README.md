@@ -1,6 +1,6 @@
 # certified robustness against adversarial attacks in linear inverse problems
  
-This repository provides code to reproduce results of the paper ```Certified Adversarial Defense Methods for Inverse Problems``` that submitted to NeurIPS 2023.
+This repository contains the code necessary to replicate the results presented in the paper titled "Certified Adversarial Defense Methods for Inverse Problems," which has been submitted to NeurIPS 2023.
 
 ---
 ### Main requirements
@@ -17,4 +17,4 @@ This repository provides code to reproduce results of the paper ```Certified Adv
      
 ---
 ### Additional info
-This repository will be . 
+This repository will be made publicly available once the paper is accepted.
